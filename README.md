@@ -107,7 +107,7 @@ DELIMITER ;
 
 ##  Tech Stack
 * **Database Management System:** MySQL
-* **Querying & Modeling:**MySQL Workbench
-* **Business Intelligence:** Power BI Dashboar
+* **Querying & Modeling:** MySQL Workbench
+* **Business Intelligence:** Power BI Dashboard
 
 
