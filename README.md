@@ -1,11 +1,11 @@
-#Hotel Management System (SQL & Power BI Dashboard)
+# Hotel Management System (SQL & Power BI Dashboard)
 Complete database schema, automation scripts, and analytical workflows for a hotel management system built with MySQL and visualized via Power BI dashboards.
 
-***Project Overview***                                                                                                    
+## Project Overview                                                                                                   
 This repository contains the database implementation and analytical backend for a multi-location Hotel Management System. The project models a hotel operations database tailored for top hospitality properties in Ghana—such as Fiesta Royale Hotel, La Palm Royal Beach Hotel, and Lancaster Accra—enforcing strict data integrity, automated revenue calculation, and real-time transaction tracking.  
 The backend automates financial updates using database triggers, logs guest activity, tracks employee roles, and structures hotel performance data for integration into Power BI operational dashboards.
 
-**Schema Architecture & Entity Relationship & Data Model** 
+## Schema Architecture & Entity Relationship & Data Model
 <img width="1714" height="730" alt="image" src="https://github.com/user-attachments/assets/8f5d30f1-2e6a-42e8-8db9-dc1ecb61d10f" />
 
 The relational schema is built on 8 normalized core entities:  
@@ -18,7 +18,7 @@ The relational schema is built on 8 normalized core entities:
 ***(vii) booking:*** Captures reservation details, check-in/out schedules, booking status, and calculated costs.          
 ***(viii) bill:*** Tracks invoicing records and real-time payment states (paid, pending, canceled).  
 
-**Automation & Business Logic**
+## Automation & Business Logic
 To eliminate manual calculations and prevent financial mismatches, the database features automatic pricing and auto-invoicing triggers:
 
  ### 1. Automatic Stay Cost Calculation
@@ -69,11 +69,11 @@ END //
 DELIMITER ;
 ```
 
-##Core Business Intelligence Queries
+## Core Business Intelligence Queries
 <img width="1576" height="745" alt="image" src="https://github.com/user-attachments/assets/e2a08716-1dad-45f6-9858-3a800dd7366e" />
 
 
-**Calculates total booking performance and demand across each hotel property, sorted from highest to lowest volume.**
+### Calculates total booking performance and demand across each hotel property, sorted from highest to lowest volume.
 
 ```SQL
 SELECT 
@@ -108,7 +108,7 @@ END $$
 DELIMITER ;
 ```
 
-##Tech Stack
+## Tech Stack
 * **Database Management System:** MySQL
 * **Querying & Modeling:** MySQL Workbench
 * **Business Intelligence:** Power BI Dashboard
