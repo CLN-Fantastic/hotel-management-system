@@ -1,4 +1,4 @@
-# Hotel Management System (SQL & Power BI Dashboard)
+#Hotel Management System (SQL & Power BI Dashboard)
 Complete database schema, automation scripts, and analytical workflows for a hotel management system built with MySQL and visualized via Power BI dashboards.
 
 ***Project Overview***                                                                                                    
@@ -69,11 +69,11 @@ END //
 DELIMITER ;
 ```
 
-## Core Business Intelligence Queries
+##Core Business Intelligence Queries
 <img width="1576" height="745" alt="image" src="https://github.com/user-attachments/assets/e2a08716-1dad-45f6-9858-3a800dd7366e" />
 
 
-### Calculates total booking performance and demand across each hotel property, sorted from highest to lowest volume.
+**Calculates total booking performance and demand across each hotel property, sorted from highest to lowest volume.**
 
 ```SQL
 SELECT 
@@ -108,7 +108,7 @@ END $$
 DELIMITER ;
 ```
 
-##  Tech Stack
+##Tech Stack
 * **Database Management System:** MySQL
 * **Querying & Modeling:** MySQL Workbench
 * **Business Intelligence:** Power BI Dashboard
