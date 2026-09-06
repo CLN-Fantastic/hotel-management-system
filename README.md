@@ -16,7 +16,7 @@ The relational schema is built on 8 normalized core entities:
 ***(iv) room_type:*** Defines room classifications, descriptions, and standard base prices.  
 ***(v) room:*** Contains individual room listings, availability status, and physical room numbers.  
 ***(vi) guest:*** Maintains detailed guest contact information.  
-***(vii)booking:*** Captures reservation details, check-in/out schedules, booking status, and calculated costs.           
+***(vii) booking:*** Captures reservation details, check-in/out schedules, booking status, and calculated costs.          
 ***(viii) bill:*** Tracks invoicing records and real-time payment states (paid, pending, canceled).  
 
 **Automation & Business Logic**
