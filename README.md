@@ -17,6 +17,7 @@ The relational schema is built on 8 normalized core entities:
 ***(v) room:*** Contains individual room listings, availability status, and physical room numbers.  
 ***(vi) guest:*** Maintains detailed guest contact information.  
 ***(vii)booking:*** Captures reservation details, check-in/out schedules, booking status, and calculated costs. 
+
 ***(viii) bill:*** Tracks invoicing records and real-time payment states (paid, pending, canceled).  
 
 **Automation & Business Logic**
@@ -47,7 +48,7 @@ DELIMITER ;
 ```
 
 ### 2. Auto-Invoicing & Billing Generation
-An `AFTER INSERT` trigger automatically generates a billing statement in the `bill` table whenever a new booking is registered, mapping the reservation status directly to payment states[cite: 2].
+An `AFTER INSERT` trigger automatically generates a billing statement in the `bill` table whenever a new booking is registered, mapping the reservation status directly to payment states.
 
 ```SQL
 DELIMITER //
