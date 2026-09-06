@@ -1,8 +1,7 @@
-# hotel-management-system
+# Hotel Management System (SQL & Power BI Dashboard)
 Complete database schema, automation scripts, and analytical workflows for a hotel management system built with MySQL and visualized via Power BI dashboards.
 
-**Hotel Management System (SQL & Power BI Dashboard)**
-***Project Overview***
+***Project Overview***                                                                                                    
 This repository contains the database implementation and analytical backend for a multi-location Hotel Management System. The project models a hotel operations database tailored for top hospitality properties in Ghana—such as Fiesta Royale Hotel, La Palm Royal Beach Hotel, and Lancaster Accra—enforcing strict data integrity, automated revenue calculation, and real-time transaction tracking.  
 The backend automates financial updates using database triggers, logs guest activity, tracks employee roles, and structures hotel performance data for integration into Power BI operational dashboards.
 
