@@ -6,8 +6,10 @@ Complete database schema, automation scripts, and analytical workflows for a hot
 This repository contains the database implementation and analytical backend for a multi-location Hotel Management System. The project models a hotel operations database tailored for top hospitality properties in Ghana—such as Fiesta Royale Hotel, La Palm Royal Beach Hotel, and Lancaster Accra—enforcing strict data integrity, automated revenue calculation, and real-time transaction tracking.  
 The backend automates financial updates using database triggers, logs guest activity, tracks employee roles, and structures hotel performance data for integration into Power BI operational dashboards.
 
-**Schema Architecture & Entity Relationship** 
-The relational schema is built on 7 normalized core entities:  
+**Schema Architecture & Entity Relationship & Data Model** 
+<img width="1714" height="730" alt="image" src="https://github.com/user-attachments/assets/8f5d30f1-2e6a-42e8-8db9-dc1ecb61d10f" />
+
+The relational schema is built on 8 normalized core entities:  
 ***(i) hotel:*** Stores distinct property locations and addresses.  
 ***(ii) role:*** Defines organizational job positions across properties.  
 ***(iii) employee:*** Maps staff to their assigned hotel and operational role.  
@@ -69,6 +71,8 @@ DELIMITER ;
 ```
 
 ## Core Business Intelligence Queries
+<img width="1576" height="745" alt="image" src="https://github.com/user-attachments/assets/e2a08716-1dad-45f6-9858-3a800dd7366e" />
+
 
 ### Calculates total booking performance and demand across each hotel property, sorted from highest to lowest volume.
 
